@@ -70,7 +70,7 @@ const ContactCongratsModal = ({ isOpen, closeModal }) => {
 
                     <div className="pt-7 relative cursor-pointer" onClick={closeModal}>
                       <img src={modalBtn} alt="" />
-                      <p className="text-center absolute text-sm lg:text-base top-8 left-[8.5rem] md:left-[11rem] lg:top-9 lg:left-[11rem]">
+                      <p className="text-center absolute text-sm lg:text-base top-8 left-[7rem] md:left-[11rem] lg:top-9 lg:left-[11rem]">
                         Back
                       </p>
                     </div>
