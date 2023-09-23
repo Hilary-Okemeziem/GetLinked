@@ -269,7 +269,7 @@ const ContactPage = () => {
           <img
             src={star1}
             alt="/"
-            className="absolute right-2 bottom-[15rem] lg:right-0 lg:bottom-[13rem] w-[1rem] lg:w-[1.5rem]"
+            className="absolute right-2 bottom-[15rem] lg:right-0 lg:bottom-[13rem] w-[1rem] lg:w-[1.5rem] animate__animated animate__rollIn"
           />
         </div>
 
@@ -277,7 +277,7 @@ const ContactPage = () => {
           <img
             src={star2}
             alt="/"
-            className="absolute right-[3rem] top-[5rem] lg:right-[12rem] lg:top-[3rem] w-[1.2rem]"
+            className="absolute right-[3rem] top-[5rem] lg:right-[12rem] lg:top-[3rem] w-[1.2rem] animate__animated animate__rollIn"
           />
         </div>
 
@@ -285,7 +285,7 @@ const ContactPage = () => {
           <img
             src={star3}
             alt="/"
-            className="absolute  right-[20rem] bottom-[10rem] lg:right-[43rem] lg:bottom-[14rem] w-[1rem] lg:w-[1.7rem]"
+            className="absolute  right-[20rem] bottom-[10rem] lg:right-[43rem] lg:bottom-[14rem] w-[1rem] lg:w-[1.7rem] animate__animated animate__rollIn"
           />
         </div>
 
@@ -293,7 +293,7 @@ const ContactPage = () => {
           <img
             src={star4}
             alt="/"
-            className="absolute left-[12rem] top-[1rem] w-[0.8rem] lg:left-[12rem] lg:top-[7rem] lg:w-[1.2rem]"
+            className="absolute left-[12rem] top-[1rem] w-[0.8rem] lg:left-[12rem] lg:top-[7rem] lg:w-[1.2rem] animate__animated animate__rollIn"
           />
         </div>
       </div>
@@ -302,7 +302,7 @@ const ContactPage = () => {
         <img
           src={purpleFlare}
           alt="/"
-          className="absolute top-0 left-0 md:top-1 lg:top-0 lg:left-0 lg:h-[35rem] -z-50"
+          className="absolute top-0 left-0 md:top-1 lg:top-0 lg:left-0 lg:h-[35rem] -z-50 animate__animated animate__rollIn"
         />
       </div>
       <div>

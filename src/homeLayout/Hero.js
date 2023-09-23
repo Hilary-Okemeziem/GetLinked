@@ -76,14 +76,14 @@ const Hero = () => {
           <img
             src={star2}
             alt="/"
-            className="absolute right-[35rem] bottom-[30rem]"
+            className="absolute right-[35rem] bottom-[30rem] animate__animated animate__rollIn"
           />
         </div>
         <div className="">
           <img
             src={star2}
             alt="/"
-            className="absolute left-[29.5rem] bottom-[9rem]"
+            className="absolute left-[29.5rem] bottom-[9rem] animate__animated animate__rollIn"
           />
         </div>
         <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
@@ -92,38 +92,38 @@ const Hero = () => {
               <img
                 src={star}
                 alt="/"
-                className="absolute top-[8rem] left-[10rem]"
+                className="absolute top-[8rem] left-[10rem] animate__animated animate__bounce"
               />
             </div>
 
             <div>
-              <h3 className="text-white text-3xl italic tracking-wide absolute right-11 top-[6rem]">
+              <h3 className="text-white text-3xl italic tracking-wide absolute right-11 top-[6rem] animate__animated animate__fadeInDown animate_delay-2s animate__slow">
                 Igniting a Revolution in HR Innovation
               </h3>
               <img
                 src={vector}
                 width={230}
                 alt="/"
-                className="absolute right-12 top-[8rem]"
+                className="absolute right-12 top-[8rem] animate__animated animate__fadeInDown animate_delay-3s animate__slow"
               />
             </div>
           </div>
 
           <div className="pt-[5rem] flex justify-between">
             <div>
-              <div className="w-[37rem] pb-2">
+              <div className="w-[37rem] pb-2 animate__animated animate__backInLeft animate__slow ">
                 <img src={title} alt="/" />
               </div>
-              <p className="w-[27rem] py-2">
+              <p className="w-[27rem] py-2 animate__animated animate__fadeInLeft animate__delay-2s animate__slow">
                 Participate in getlinked tech Hackathon 2023 stand a chance to
                 win a Big prize
               </p>
-              <div className="py-6">
+              <div className="py-6 animate__animated animate__fadeInLeft animate__delay-3s animate__slow">
                 <Link to="/register" className="cursor-pointer">
                   <img src={regBtn} alt="/" width={140} />
                 </Link>
               </div>
-              <div className="text-5xl mt-12 tracking-wider font-extrabold">
+              <div className="text-5xl mt-12 tracking-wider font-extrabold animate__animated animate__backInLeft animate__delay-4s animate__slow">
                 {timer}
               </div>
             </div>
@@ -140,7 +140,7 @@ const Hero = () => {
                 <img
                   src={galaxy}
                   alt="/"
-                  className="absolute right-0 w-[45rem] h-[31rem] z-[20]"
+                  className="absolute right-0 w-[45rem] h-[31rem] z-[20] animate__animated animate__fadeInDown animate__delay-2s"
                 />
               </div>
               <div>

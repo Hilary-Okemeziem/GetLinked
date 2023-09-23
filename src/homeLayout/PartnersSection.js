@@ -8,7 +8,7 @@ import patner from "../images/patner.png";
 
 const PartnersSection = () => {
   return (
-    <div className="pt-[5rem] relative" >
+    <div className="pt-[5rem] relative  reveal" >
       <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
         <div className="pb-[4rem] flex items-center justify-center flex-col">
           <h2 className="text-xl text-center lg:text-3xl py-2">

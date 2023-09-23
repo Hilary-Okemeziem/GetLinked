@@ -10,8 +10,8 @@ import purpleFlare2 from "../images/PurpleFlare.png";
 
 const CriteriaSection = () => {
   return (
-    <div className="pt-[5rem] relative" >
-      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
+    <div className="pt-[5rem] relative reveal" >
+      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px] ">
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-16 lg:gap-24">
           <div className="ml-0 lg:ml-10">
             <img src={criteriaImg} alt="/" />

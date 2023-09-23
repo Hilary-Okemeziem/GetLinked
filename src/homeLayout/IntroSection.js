@@ -7,7 +7,7 @@ import star2 from "../images/sata gra.png";
 const IntroSection = () => {
   return (
     <div className="pt-[5rem]" id="intro" >
-      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px] relative">
+      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px] relative reveal">
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-16 lg:gap-24">
           <div className="ml-0 lg:ml-10">
             <img src={bigIdea} alt="/" />

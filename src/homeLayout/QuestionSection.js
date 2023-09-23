@@ -9,8 +9,8 @@ import star4 from "../images/sata gra.png";
 
 const QuestionSection = () => {
   return (
-    <div className="pt-[5rem] relative" id="faqs" >
-      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
+    <div className="pt-[5rem] relative reveal" id="faqs"  >
+      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px] ">
         <div className="flex flex-wrap lg:flex-nowrap lg:flex-row items-center justify-center gap-24 lg:gap-24">
           <div className="ml-0 lg:ml-10 w-full">
             <h2 className="text-xl text-center lg:text-start lg:text-3xl w-full py-2 ">

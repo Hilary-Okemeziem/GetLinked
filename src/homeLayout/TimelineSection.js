@@ -8,8 +8,8 @@ import star3 from "../images/star pu.png";
 
 const TimelineSection = () => {
   return (
-    <div id="timeline" className="pt-[5rem] relative" >
-      <div className="w-full h-full px-4 lg:px-16 mx-auto max-w-[1240px]">
+    <div id="timeline" className="pt-[5rem] relative reveal" >
+      <div className="w-full h-full px-4 lg:px-16 mx-auto max-w-[1240px] ">
         <div className="relative hidden lg:block">
           <div>
             <img src={timeline} alt="" />

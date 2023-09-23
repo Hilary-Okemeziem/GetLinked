@@ -10,8 +10,8 @@ import rewards from "../images/Rewards.png";
 
 const RewardsSection = () => {
   return (
-    <div className="pt-[5rem] relative" >
-      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
+    <div className="pt-[5rem] relative reveal" >
+      <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px] ">
         <div className="relative lg:hidden block pb-[4rem]">
           <h2 className="text-xl text-center lg:text-start lg:text-3xl py-2">
             Prizes and <br />

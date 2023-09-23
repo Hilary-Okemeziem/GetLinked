@@ -50,9 +50,9 @@ const RegisterPage = () => {
       height: "3rem",
       paddingLeft: "1rem",
       paddingRight: "1rem",
-      marginTop: "1rem",
+      marginTop: "0.5rem",
       borderWidth: "2px",
-      borderColor: "#000",
+      borderColor: "#D434FE",
       outline: "2px solid transparent",
       outlineOffset: "2px",
       borderRadius: "0.375rem",
@@ -337,7 +337,7 @@ const RegisterPage = () => {
             <img
               src={star1}
               alt="/"
-              className="absolute hidden lg:block lg:right-[8rem] lg:bottom-[3rem] w-[1rem] lg:w-[1rem]"
+              className="absolute hidden lg:block lg:right-[8rem] lg:bottom-[3rem] w-[1rem] lg:w-[1rem] animate__animated animate__rollIn"
             />
           </div>
 
@@ -345,7 +345,7 @@ const RegisterPage = () => {
             <img
               src={star2}
               alt="/"
-              className="absolute right-[22rem] top-[40rem] lg:right-[12rem] lg:top-[8rem] w-[1.2rem]"
+              className="absolute right-[22rem] top-[40rem] lg:right-[12rem] lg:top-[8rem] w-[1.2rem] animate__animated animate__rollIn"
             />
           </div>
 
@@ -353,7 +353,7 @@ const RegisterPage = () => {
             <img
               src={star2}
               alt="/"
-              className="absolute hidden lg:block lg:left-0 lg:bottom-[5rem] w-[1.5rem]"
+              className="absolute hidden lg:block lg:left-0 lg:bottom-[5rem] w-[1.5rem] animate__animated animate__rollIn"
             />
           </div>
 
@@ -361,7 +361,7 @@ const RegisterPage = () => {
             <img
               src={star3}
               alt="/"
-              className="absolute  right-7 bottom-[23rem] lg:right-[46rem] lg:bottom-[14rem] w-[1rem] lg:w-[1.7rem]"
+              className="absolute  right-7 bottom-[23rem] lg:right-[46rem] lg:bottom-[14rem] w-[1rem] lg:w-[1.7rem] animate__animated animate__rollIn"
             />
           </div>
 
@@ -369,7 +369,7 @@ const RegisterPage = () => {
             <img
               src={star4}
               alt="/"
-              className="absolute left-[20rem] top-[17rem] w-[0.8rem] lg:left-[12rem] lg:top-[7rem] lg:w-[1.2rem]"
+              className="absolute left-[20rem] top-[17rem] w-[0.8rem] lg:left-[12rem] lg:top-[7rem] lg:w-[1.2rem] animate__animated animate__rollIn"
             />
           </div>
         </div>
@@ -379,7 +379,7 @@ const RegisterPage = () => {
         <img
           src={purpleFlare}
           alt="/"
-          className="absolute top-[5rem] left-0 md:top-1 lg:top-0 lg:left-0 lg:h-[35rem] -z-50"
+          className="absolute top-[5rem] left-0 md:top-1 lg:top-0 lg:left-0 lg:h-[35rem] -z-50 animate__animated animate__rollIn"
         />
       </div>
       <div>

@@ -11,6 +11,7 @@ import star1 from "../images/starwhite.png";
 import star2 from "../images/star.png";
 import star4 from "../images/sata gra.png";
 import { HashLink } from "react-router-hash-link";
+import { BiSolidChevronUpSquare } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -61,9 +62,7 @@ const Footer = () => {
                   </HashLink>
                 </li>
                 <li className="py-3 hover:text-[#D434FE]">
-                  <Link to="/register">
-                    Register
-                  </Link>
+                  <Link to="/register">Register</Link>
                 </li>
                 <li className="py-3 flex items-center gap-4">
                   <div className="text-[#D434FE]">Follow us</div>
@@ -110,6 +109,12 @@ const Footer = () => {
           </div>
         </div>
 
+        <HashLink smooth to="/#hero">
+          <div className="absolute bottom-0 right-0 shadow-xl">
+            <BiSolidChevronUpSquare size={50} color={"#D434FE"} />
+          </div>
+        </HashLink>
+
         <div>
           <img
             src={star1}
@@ -121,7 +126,7 @@ const Footer = () => {
           <img
             src={star1}
             alt="/"
-            className="absolute right-[3rem] bottom-[4rem] w-[0.8rem] lg:right-0 lg:bottom-[1rem] lg:w-[1.2rem]"
+            className="absolute right-[3rem] bottom-[4rem] w-[0.8rem] lg:right-[5rem] lg:bottom-[1rem] lg:w-[1.2rem]"
           />
         </div>
         <div>

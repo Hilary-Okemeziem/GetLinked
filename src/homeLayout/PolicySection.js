@@ -11,7 +11,7 @@ import ReadMoreBtn from "../images/ReadMoreBtn.png";
 
 const PolicySection = () => {
   return (
-    <div className="pt-[5rem] relative" >
+    <div className="pt-[5rem] relative  reveal" >
       <div className="w-full h-full px-4 lg:px-12 mx-auto max-w-[1240px]">
         <div className="flex flex-wrap lg:flex-nowrap lg:flex-row items-center justify-center gap-16 lg:gap-18">
           <div>

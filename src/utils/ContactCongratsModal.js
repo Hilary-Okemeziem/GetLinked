@@ -37,7 +37,7 @@ const ContactCongratsModal = ({ isOpen, closeModal }) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-[350px] md:w-full max-w-md transform overflow-hidden rounded-md bg-white/5 border border-[#D434FE] p-6 text-left align-middle shadow-xl transition-all mt-[4.3rem]">
+                <Dialog.Panel className="w-[320px] sm:w-[450px] md:w-full max-w-md transform overflow-hidden rounded-md bg-white/5 border border-[#D434FE] p-6 text-left align-middle shadow-xl transition-all mt-[4.3rem]">
                   <Dialog.Title>
                     <div className="flex items-center justify-center w-full relative">
                       <img src={done} alt="/" className="mr-[8rem]" />
