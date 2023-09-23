@@ -29,40 +29,39 @@ const Hero = () => {
     };
   };
 
-  const startTimer = (e) => {
-    let { total, hours, minutes, seconds } = getTimeRemaining(e);
-    if (total >= 0) {
-      setTimer(
-        (hours > 9 ? hours : "0" + hours) +
-          "ₕ  " +
-          (minutes > 9 ? minutes : "0" + minutes) +
-          "ₘ " +
-          (seconds > 9 ? seconds : "0" + seconds) +
-          "ₛ "
-      );
-    }
-  };
-
-  const clearTimer = (e) => {
-    setTimer("00 00 00");
-
-    if (Ref.current) clearInterval(Ref.current);
-    const id = setInterval(() => {
-      startTimer(e);
-    }, 1000);
-    Ref.current = id;
-  };
-
-  const getDeadTime = () => {
-    let deadline = new Date();
-
-    deadline.setSeconds(deadline.getSeconds() + 80000);
-    return deadline;
-  };
-
+  
   useEffect(() => {
+    const startTimer = (e) => {
+      let { total, hours, minutes, seconds } = getTimeRemaining(e);
+      if (total >= 0) {
+        setTimer(
+          (hours > 9 ? hours : "0" + hours) +
+            "ₕ  " +
+            (minutes > 9 ? minutes : "0" + minutes) +
+            "ₘ " +
+            (seconds > 9 ? seconds : "0" + seconds) +
+            "ₛ "
+        );
+      }
+    };
+    const clearTimer = (e) => {
+      setTimer("00 00 00");
+      if (Ref.current) clearInterval(Ref.current);
+      const id = setInterval(() => {
+        startTimer(e);
+      }, 1000);
+      Ref.current = id;
+    };
+    const getDeadTime = () => {
+      let deadline = new Date();
+  
+      deadline.setSeconds(deadline.getSeconds() + 80000);
+      return deadline;
+    };
+
     clearTimer(getDeadTime());
   }, []);
+
   return (
     <div className="pt-[5rem] relative" id="hero">
       <div className="hidden lg:block">
@@ -120,7 +119,7 @@ const Hero = () => {
                 win a Big prize
               </p>
               <div className="py-6">
-                <Link to="/" className="cursor-pointer">
+                <Link to="/register" className="cursor-pointer">
                   <img src={regBtn} alt="/" width={140} />
                 </Link>
               </div>
